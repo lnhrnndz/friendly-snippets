@@ -338,6 +338,13 @@
           "plaintex",
           "tex"
         ],
+        "path": "./snippets/latex/lnhrnndz-latex-snippets.json"
+      },
+      {
+        "language": [
+          "plaintex",
+          "tex"
+        ],
         "path": "./snippets/latex/latex-snippets.json"
       },
       {

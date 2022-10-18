@@ -1,0 +1,32 @@
+{
+  "Fraction": {
+    "prefix": ["fr", "\\fr"],
+    "body": [
+      "\\frac{$1}{$2}$3"
+    ],
+    "description": "Add a fraction"
+  },
+  "Algorithm": {
+    "prefix": ["alg", "\\alg"],
+    "body": [
+      "\\begin{algorithm}",
+      "\\caption{${1:caption}}\\label{alg:one}",
+      "\\KwData{$n \\geq 0$}",
+      "\\KwResult{$y = x^n$}",
+      "$y \\gets 1$\\;",
+      "$X \\gets x$\\;",
+      "$N \\gets n$\\;",
+      "\\While{$N \\neq 0$}{",
+      "\t\\eIf{$N$ is even}{",
+      "\t\t$X \\gets X \\times X$\\;",
+      "\t\t$N \\gets \\frac{N}{2}$ \\Comment*[r]{This is a comment}",
+      "\t}{\\If{$N$ is odd}{",
+      "\t\t\t$y \\gets y \\times X$\\;",
+      "\t\t\t$N \\gets N - 1$\\;",
+      "\t\t}",
+      "\t}",
+      "}",
+      "\\end{algorithm}"
+    ]
+  }
+}
